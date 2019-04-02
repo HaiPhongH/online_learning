@@ -1,0 +1,100 @@
+.courses {
+    background-color: #F4F4F4;
+}
+
+.list_courses {
+    margin-left: 70px;
+    padding: 5px;
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    width: auto;
+}
+#resultMoreCourse {
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    width: auto;
+}
+#resultMoreCourse a {
+    text-decoration: none;
+    color: black;
+}
+.list_courses a {
+    text-decoration: none;
+    color: black;
+}
+.flex_course {
+    width: 228px;
+}
+.course {
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow:  0px 2px 4px 0px rgba(0,0,0,0.2);
+    height: 300px;
+    text-align: left;
+    font-size: 15px;
+}
+.course p {
+    padding-left: 15px;
+}
+.title {
+    margin-left: 74px;
+    padding: 5px;
+    font-size: 25px;
+    width: auto;
+}
+
+.member_course {
+    height: auto;
+}
+.author{
+    font-size: 13px;
+    color: #999999;
+}
+
+.dropcourse {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 15px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+    z-index: 1;
+    top: 500px;
+    left: 300px;
+    width: 350px;
+    height: 450px;
+}
+.dropdown-content p {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-table;
+}
+.introduction {
+    font-size: 15px !important;
+}
+.see_more {
+    padding-left: 80px;
+}
+.see_morebtn {
+    width: 220px;
+    height: 50px;
+}

@@ -1,0 +1,68 @@
+.footer {
+    background-color:  #F4F4F4;
+    margin: 0;
+    padding: 0;
+}
+/*----------------Languages-------------*/
+#ul_footer {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #032F3E;
+}
+#ul_footer li{
+    float: right;
+    display: block;
+}
+#ul_footer li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+#ul_footer li a:hover {
+    color: #AB987A;
+}
+#ul_footer li a:active {
+    color: #93EAFD;
+}
+#ul_footer img {
+    width: 20px;
+    height: 10px;
+}
+
+#ul_footer p {
+    font-size: 10px;
+    display: inline-block;
+}
+#icon_language {
+    display: none;
+}
+/*----------------About Us---------------------*/
+.aboutus {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid  #AB987A;
+}
+.aboutus ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.aboutus img {
+    width: 40px;
+    height: 40px;
+}
+.aboutus li {
+    float: left;
+}
+.aboutus li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #AB987A;
+}
+.aboutus li a:hover {
+    color: #032F3E
+}

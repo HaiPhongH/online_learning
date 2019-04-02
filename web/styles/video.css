@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 24, 2017, 12:58:00 AM
+    Author     : HaiPh
+*/
+
+body{
+    font-family: tahoma;
+    margin: 0;
+    padding: 0;
+    background-color: #14171C;
+}
+#videocontainer{
+    overflow: auto;
+}
+
+/*LEFT =	THẺVIDEO + THẺINFO*/
+#theleft{
+    width: 960px;
+    height: 630px;  
+    padding-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+#thevideo{
+    z-index: 0;
+    width: 960px;
+    height: auto;
+    margin-top: 0px;
+    float: left;
+}
+
+/*THẺVIDEO = VIDEO + THẺCONTROL*/
+#video1{
+    width: 100%;
+    height: auto;
+}
+#thecontrol{
+    z-index: 1;
+    width: 960px;
+    height: 40px;
+    position: absolute;
+    margin-top: 500px;
+    background-color: #F2F3F5;
+    opacity: 0;
+}
+#thecontrol:hover{
+    opacity: 0.75;
+}
+
+/*THẺCONTROL*/
+#control{
+    background-color: transparent;
+    overflow: auto;
+}
+
+/*Play, Rewind, Forward*/
+.divplay{
+    float: left;
+    margin-top: 4px;
+}
+#imgplay{
+    margin-right: 15px;
+}
+
+/*Timeline + Time*/
+.divtimeline{
+    float: left; 
+    margin-top: 8px;
+    margin-left: 150px;
+    position: absolute;
+}
+#timelinerange{
+    width: 400px;
+    margin-right: 100px;
+}
+.divtime{
+    margin-left: 580px; 
+    margin-top: 11px; 
+    position: absolute;
+}
+
+/*Range*/
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: #999;
+    height: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+}
+
+/*Volume + FullScreen*/
+.divrangevol{
+    float: left;
+    margin-top: 8px;
+    margin-left: 795px;
+    position: absolute;
+}
+#volrange{
+    width: 100px;
+}
+
+.divvol{
+    float: left; 
+    margin-left: 600px; 
+    position: absolute;
+}
+#imgvol{
+    margin-left: 165px;
+    width: 23px;
+    height: 23px;
+
+}
+#imgfullScreen{
+    width: 23px;
+    height: 23px;
+    margin-top: 8px;
+    margin-left: 135px;
+}
+
+/*THẺ INFO*/
+#theinfo{
+    margin-top: 550px;
+    z-index: 0;
+    width: 960px;
+    height: 90px;
+    color: gray;
+}
+#section{
+    margin-top: 10px;
+    padding-left: 30px;
+    font-size: 180%;
+    display: inline-block;
+}
+#titlevideo{
+    margin-top: 0px;
+    padding-left: 30px;
+    font-size: 130%;
+}
+
+/*RIGHT*/
+#listcourse{
+    margin-left: 980px;
+    margin-top: 10px;
+    position: absolute;
+    float: right;
+    width: 300px;
+    height: 645px;
+    background-color: #14171C;
+    box-shadow: 0 0 10px #000000;
+    overflow: auto;
+}
+#listcourse ul{
+    background-color: #14171C;
+    width: 360px;
+    padding: 0;
+    list-style-type: none;
+}
+#listcourse ul p{
+    padding-left: 5px;
+    color: #007791;
+}
+#listcourse ul li{
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #14171C;
+    padding: 0 10px;
+    overflow: hidden;
+}
+#listcourse ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #F5F5F5;
+    display: block;
+}
+#listcourse ul li:hover{
+    background-color: #007791;
+}
+#listcourse ul li:active{
+    background-color: #2F4F4F;
+}
+/*Rate*/
+#star1, #star2, #star3, #star4, #star5{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+#star1:hover, #star2:hover, #star3:hover, #star4:hover, #star5:hover{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+}
+#rating{
+    position: absolute;
+    top:560px;
+    left: 760px;
+}
+

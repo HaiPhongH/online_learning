@@ -1,0 +1,432 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2017, 11:08:55 PM
+    Author     : HaiPh
+*/
+
+body{
+    background-color: #DADADA;
+}
+/*TOP*/
+.learntop{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+}
+.img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+#learnimg{
+    background-color: #29303B;
+    float: left;
+    width: 40%;
+    height: 295px;
+}
+.topp{
+    background-color: #29303B;
+    font-size: 170%;
+    color: #F5F5F5;
+}
+#learntopp{
+    background-color: #29303B;
+    float: right;
+    width: 60%;
+    height: 295px;
+}
+span.play {
+    opacity: 1;
+    transition: transform 1s;
+    background:	url(../Images/btnplay.png) center;
+    left: 65px;
+    margin-top: 25px;
+    height: 242px;
+    width: 427px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+span.play:hover {
+    opacity: 1;
+}
+a:hover{
+    opacity: 0.95;
+}
+
+#lotrinh{
+    width: 700px; 
+    height: 20px; 
+    background: #686F7A; 
+    position: absolute; 
+    margin-top: 20px;
+    border-radius: 8px;
+}
+#lotrinhht{
+    width: 37.5%; 
+    height: 20px; 
+    background: white; 
+    position: absolute;
+    border-radius: 8px;
+}
+
+.learnbtn{
+    background-color: #800000;
+    width: auto;
+    border: none;
+}
+.learnbtn:hover {
+    background-color: #990000;
+}
+.learnbtn:active{
+    background-color: #BB0000;
+}
+
+/*MENU*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#learnmenu{
+    color: gray;
+}
+#learnmenu ul{
+    list-style-type: none;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+#learnmenu ul li{
+    color: gray;
+    display: inline-block;
+    width: 150px ;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
+#learnmenu ul li a{
+    text-decoration: none;}
+#learnmenu ul li:hover{
+    background: gray;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.optionmenu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 5px 5px 5px gray;
+}
+#learnmenu ul li:hover .optionmenu{
+    display: block;
+}
+/*OVERVIEW*/
+#Overview, #CourseContent, #QA, #Bookmarks, #Anouncements{
+    margin: 0;
+    padding: 0;
+    background-color: #DADADA;
+    height: auto;
+    color: #505763;
+    position: absolute;
+}
+#Overview{
+    display: none;
+}
+#QA, #Anouncements{
+    display: none;
+}
+#h1, #h2{
+    font-size: 150%;
+    color: #007791;
+}
+#h1{
+    padding: 30px 0 20px 0;
+}
+/*#Overview p{
+        padding-top: 15px;
+        padding-bottom: 18px;
+}*/
+#Overview a{
+    text-decoration: none;
+    color: 	#007791;
+}
+.recentq{
+    overflow: auto;
+}
+/*OVV1*/
+
+#recentactivity{
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+#recentactivity h1{
+    margin-left: 200px;
+}
+
+#ovvquestion{
+    float: left;
+    margin-left: 200px;
+    width: 400px;
+}
+#ovvinstructor{
+    float: right;
+    margin-right: 200px;
+    width: 400px;
+}
+#ovvquestion, #ovvinstructor{
+    background-color: #F5F5F5;
+    box-shadow: 3px 3px 3px gray;
+    -moz-box-shadow: 3px 3px 3px gray;
+    -webkit-box-shadow: 3px 3px 3px gray;
+    padding: 20px;
+}
+.headovv{
+    padding-top: 0px !important;
+    padding-bottom: 15px;	
+}
+.avt{
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    border-style: solid;
+    border-color: #505763;
+    background: #DADADA;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 10px;
+    float: left;
+    text-align: center; 
+    line-height: 40px;
+}
+.question{
+    float: left;
+    padding-left: 10px;
+    line-height: 62px;
+}
+
+/*OVV2*/
+#aboutthiscourse{
+    margin-left: 200px;
+    padding-top: 30px;
+}
+
+#aboutthiscourse p{
+    padding-bottom: 30px;
+}
+#hr1{
+    margin: 350px 200px 0 200px;
+}
+.hr2{
+    margin-right: 200px;
+}
+.tbatc{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tb11{
+    width: 150px;
+}
+.tb12{
+    padding-left: 50px; 
+    width: 220px;
+}
+.tb13{
+    padding-left: 150px;
+}
+#tb3{
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    margin-right: 200px;
+}
+#tb32{
+    padding-left: 50px;
+}
+/*COURSECONTENT*/
+#CourseContent{
+    display: none;
+}
+#sec1, #sec2, #sec3{
+    background-color: #F5F5F5;
+    box-shadow: 3px 3px 3px gray;
+    -moz-box-shadow: 3px 3px 3px gray;
+    -webkit-box-shadow: 3px 3px 3px gray;
+    padding: 30px 20px 15px 20px;
+    width: 900px;
+}
+#sec1{
+    margin: 50px 200px 30px 200px;
+}
+#sec2, #sec3{
+    margin: 30px 200px 30px 200px;
+}
+.titsec{
+    font-size: 150%;
+    padding-bottom: 20px;
+    color: #007791;
+}
+#CourseContent ul{
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+#CourseContent ul li{
+    width: auto;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+#CourseContent ul li a{
+    color: gray;
+    text-decoration: none;
+}
+#CourseContent ul li:hover{
+    background-color: #007791;
+    cursor: pointer;
+}
+#CourseContent ul li:hover a{
+    color: #F5F5F5;
+}
+
+/*Question n Answer*/
+#saquestion{
+    margin: 50px 200px 20px 200px;
+    background-color: #F5F5F5;
+    box-shadow: 3px 3px 3px gray;
+    -moz-box-shadow: 3px 3px 3px gray;
+    -webkit-box-shadow: 3px 3px 3px gray;
+    padding: 20px 20px 17px 20px;
+    width: 900px;
+}
+#saquestion ul li{
+    display: inline-block;
+}
+#searchq{
+    width: 20px ;
+    height: 45px ;
+    margin-top: 14px ;
+    box-sizing: border-box ;
+    border: 2px solid #ccc ;
+    border-radius: 4px ;
+    font-size: 16px ;
+    background-color: white ;
+    background-image: url('../Images/search1600.png') ;
+    background-size: 20px 20px ;
+    background-position: 10px 10px ;
+    background-repeat: no-repeat;
+    width: 640px;
+    padding-left: 40px;
+}
+#qasearch1{
+    padding-left: 20px;
+}
+#qasearch2{
+    padding: 0px 20px;
+}
+#qasort{
+    margin-left: 200px;
+}
+#qasort select{
+    height: 40px;
+    width: 170px;
+    color: #505763;
+    font-size: 100%;
+}
+#qaquestion{
+    background-color: #F5F5F5;
+    box-shadow: 3px 3px 3px gray;
+    -moz-box-shadow: 3px 3px 3px gray;
+    -webkit-box-shadow: 3px 3px 3px gray;
+    width: 940px;
+    margin: 10px 200px 30px 200px;
+}
+#qaquestion ul li{
+    width: auto;
+    height: 85px;
+    line-height: 85px;
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+}
+#qaquestion ul li:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px gray;
+    -moz-box-shadow: 0 0 10px gray;
+    -webkit-box-shadow: 0 0 10px gray;
+}
+
+/*Bookmarks*/
+#Bookmarks{
+    display: block;
+    width: 100%;
+}
+#imgbm{
+    margin-left: 45%;
+}
+#nobm{
+    margin: 90px 15% 50px 15%;
+    width: 70%;
+}
+.p1{
+    text-align: center;
+    font-size: 200%;
+}
+.pbm{
+    text-align: center;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+    border: none;
+    float: right;
+    padding-right: 80px;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+    margin: 5px;
+    font-size: 2.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before { 
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label { 
+    color: #ddd; 
+    float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+#btnRating {
+    margin-top: 0px;
+    padding-bottom: 30px;
+    width: 50%;
+    height: 20px;
+}

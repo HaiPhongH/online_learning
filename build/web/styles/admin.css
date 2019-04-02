@@ -1,0 +1,70 @@
+.admin_options {
+    padding: 0;
+    margin: 0;
+    height: 600px;
+}
+.keys {
+    list-style-type: none;
+}
+.keys li {
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #ccc;
+    margin-bottom: -1px;
+}
+.keys li:hover {
+    background-color: #032F3E;
+    color: white;
+}
+
+.key_options {
+    display: inline-table;
+    padding-top: 30px;
+    padding-left: 450px;
+}
+.key_options p {
+    font-size: 50px;
+    text-align: center;
+}
+.button_key {
+    width: 500px;
+    height: 70px;
+    font-size: 25px;
+}
+.detail_options {
+    width: 600px;
+    height: auto;
+    padding: 5px 10px 10px 10px;
+    display: inline-table;
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+}
+.statisticCourse {
+    padding-left: 50px !important;
+    width: 250px;
+}
+.statisticCourse  p {
+    font-size: 20px;
+    text-align: left;
+}
+#content_course {
+    width: 800px;
+    float: right;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.table_statistic {
+    width: 90%;
+    border-collapse: collapse;
+}
+.sub_row {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.row:nth-child(even) {
+    background-color: #dddddd;
+}

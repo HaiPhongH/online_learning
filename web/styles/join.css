@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 23, 2017, 9:05:03 PM
+    Author     : HaiPh
+*/
+
+#jointop{
+    width: 100%;
+    height: 150px;
+    background-color: #29303B;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#jointitle{
+    color: #F5F5F5;
+    font-size: 200%;
+    margin-left: 140px;
+    line-height: 150px;
+    margin-top: 0px;
+}
+#joinlist{
+    margin: 0 10% 0 10%;
+}
+#tbjoinlist{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+#tbjoinlist th, #tbjoinlist td{
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+#tbjoinlist th{
+
+}
+#tbjoinlist td{
+    height: 100px;
+    padding-right: 15px;
+}
+#column1{
+    width: 56%;
+}
+#column2, #column3{
+    width: 17%;
+}
+#column4{
+    width: 10%;
+}
+#column1, #column2, #column3, #column4{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.coursejoinlist{
+    overflow: auto;	
+}
+.avtcoursejoinlist{
+    float: left;
+    margin: 0 10px 0 10px;
+    height: 80px;
+    width: auto;
+}
+.namecoursejoinlist{
+    float: left;
+}
+.tbratecourse{
+    padding-left: 25px;
+}
